@@ -31,7 +31,7 @@ public class MahoutMain {
 				List<RecommendedItem>recommendations = recommender.mostSimilarItems(itemId, 5);
 				
 				for(RecommendedItem recommendation : recommendations) {
-					//System.out.println(itemId + "," + recommendation.getItemID() + "," + recommendation.getValue());
+					System.out.println(itemId + "," + recommendation.getItemID() + "," + recommendation.getValue());
 				}
 				x++;
 				//if(x>10) System.exit(1);
